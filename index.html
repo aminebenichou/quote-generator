@@ -10,13 +10,15 @@
     <title>Random Quotes</title>
 </head>
 <body class="container">
-    <div class=".container-sm">
+    <div class="position-absolute top-50 start-50 translate-middle">
+        <div class=".container-sm">
         <h5 id="quote-text">Press the button to generate a quote</h5> <br>
         <h5 id="author"></h5>
+        </div>
+        <button type="button" id="js-new-quote" class="new-quote btn btn-primary">
+            Generate a new quote
+        </button> 
     </div>
-    <button type="button" id="js-new-quote" class="new-quote btn btn-primary">
-        Generate a new quote
-    </button>
 </body>
 <script src="./main.js"></script>
 
